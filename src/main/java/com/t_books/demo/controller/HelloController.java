@@ -1,12 +1,12 @@
-package com.t_books.demo;
+package com.t_books.demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String IndexPage() {
-        return "<h1>It works! ?? ~~</h1>";
+        return "<h1>It works! ?? ~~  ????</h1>";
     }
 }
