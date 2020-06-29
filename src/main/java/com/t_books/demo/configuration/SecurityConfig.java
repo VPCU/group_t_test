@@ -25,7 +25,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .password("123").roles("admin");
     }
 
-    /*
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
@@ -73,6 +73,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     out.close();
                 });
     }
-    */
+
 
 }
