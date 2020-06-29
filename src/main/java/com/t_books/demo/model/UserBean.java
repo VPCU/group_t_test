@@ -11,7 +11,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Entity
 @Table(name="users")
 public class UserBean {
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	

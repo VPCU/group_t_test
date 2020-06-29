@@ -15,7 +15,7 @@ import com.t_books.demo.service.*;
 public class LoginController {
 
 	@Autowired
-	private LoginClservice loginClservice; 
+	private LoginClservice loginClservice;
 	
 	@RequestMapping("/user")
 	public String getLoginCl(@RequestParam("uname") String uname,@RequestParam("password") String password) {

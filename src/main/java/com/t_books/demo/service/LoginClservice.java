@@ -9,7 +9,6 @@ import com.t_books.demo.model.*;
 @Service
 public class LoginClservice {
 	
-	
 	@Autowired
 	private Userdao userdao;//与dao层进行交互
 	
@@ -17,7 +16,6 @@ public class LoginClservice {
 	public String Chick(String uname,String password) {
 		
 		UserBean b=userdao.findByUnameAndPassword(uname, password);
-		
 		if(b==null) {
 			
 			return "null";
